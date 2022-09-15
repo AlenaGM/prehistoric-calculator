@@ -1,14 +1,13 @@
-# Prehistoric-calculator
+# 🦖Prehistoric-calculator🦖
 
-What is the first thing to build when you start to learn JavaScript? A calculator - evidently!<br><br>
-Mine can only add, subtract, multiply and divide, that's why it is called "prehistoric" or "antediluvian".
-
+_What is the first thing to build when you start learning JavaScript? A calculator - evidently!<br>
+Mine can only add, subtract, multiply and divide, that's why it is called "prehistoric"🦖 or "antediluvian" ⛈️._
+<br><br>
 Prehistoric-calculator is a Java-Script training project created on week 13 of learning with [ITGirlSchool].
 
 The task was to make a page that:
-- after a button press asks user's name and alert with personal welcome, type "Hi! John"
-- has a simple 4-button calculator. that asks 2 number and calculates that result after button action choice
-
+- on button press, asks user's name and alert with personal welcome-message; 
+- has a simple 4-button calculator that requests 2 numbers and, on action choice, calculates the result.
 
 ## Result
 <img width="45%" alt="screen capture" src="../main/assets/img/captureweb.png">
