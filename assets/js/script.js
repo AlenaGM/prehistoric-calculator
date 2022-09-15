@@ -1,50 +1,48 @@
-function showMessage(){;
-    let name = prompt(`Как тебя зовут?`);
-    alert(`Приятно познакомиться, ${name}! А я - Алена`);
-  }
+function showMessage() {
+  let name = prompt(`What is your name?`);
+  alert(`Nice to meet you, ${name}! My name is Alёna`);
+}
 
-function addNumbers(){;
-  let x = prompt(`Введи первое значение`);
-  let y = prompt(`Введи второе значение`);
-  if (confirm(`Твое первое значение = ${x}, а второе = ${y}?`)){
-  alert(`${x} + ${y} будет ... (Скорее нажми "OK") `)}
-  else {
-    alert(`Что-то пошло не так. Попробуй еще раз"`)
+function addNumbers() {
+  let x = prompt(`Enter first number`);
+  let y = prompt(`Enter secons number`);
+  if (confirm(`Your first number is ${x}, and your second number is ${y}?`)) {
+    alert(`${x} + ${y} = ... (Hurry up! Press "OK"!)`);
+  } else {
+    alert(`Something went wrong. Try again`);
   }
   alert(+x + +y);
 }
 
-function subtractNumbers(){;
-  let x = prompt(`Введи первое значение`);
-  let y = prompt(`Введи второе значение`);
-  if (confirm(`Твое первое значение = ${x}, а второе = ${y}?`)){
-  alert(`${x} - ${y} будет ... (Скорее нажми "OK") `)}
-  else {
-    alert(`Что-то пошло не так. Попробуй еще раз"`)
+function subtractNumbers() {
+  let x = prompt(`Enter first number`);
+  let y = prompt(`Enter secons number`);
+  if (confirm(`Your first number is ${x}, and your second number is ${y}?`)) {
+    alert(`${x} - ${y} = ... (Hurry up! Press "OK"!)`);
+  } else {
+    alert(`Something went wrong. Try again`);
   }
   alert(x - y);
 }
 
-function multiplyNumbers(){;
-  let x = prompt(`Введи первое значение`);
-  let y = prompt(`Введи второе значение`);
-  if (confirm(`Твое первое значение = ${x}, а второе = ${y}?`)){
-  alert(`${x} * ${y} будет ... (Скорее нажми "OK") `)}
-  else {
-    alert(`Что-то пошло не так. Попробуй еще раз"`)
+function multiplyNumbers() {
+  let x = prompt(`Enter first number`);
+  let y = prompt(`Enter secons number`);
+  if (confirm(`Your first number is ${x}, and your second number is ${y}?`)) {
+    alert(`${x} * ${y} = ... (Hurry up! Press "OK"!)`);
+  } else {
+    alert(`Something went wrong. Try again`);
   }
   alert(x * y);
 }
 
-function divideNumbers(){;
-  let x = prompt(`Введи первое значение`);
-  let y = prompt(`Введи второе значение`);
-  if (confirm(`Твое первое значение = ${x}, а второе = ${y}?`)){
-  alert(`${x} / ${y} будет ... (Скорее нажми "OK") `)}
-  else {
-    alert(`Что-то пошло не так. Попробуй еще раз"`)
-  };
+function divideNumbers() {
+  let x = prompt(`Enter first number`);
+  let y = prompt(`Enter secons number`);
+  if (confirm(`Your first number is ${x}, and your second number is ${y}?`)) {
+    alert(`${x} / ${y} = ... (Hurry up! Press "OK"!)`);
+  } else {
+    alert(`Something went wrong. Try again`);
+  }
   alert(x / y);
 }
-
-

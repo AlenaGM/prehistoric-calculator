@@ -1,35 +1,48 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Montserrat&display=swap&subset=cyrillic-ext" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/normalize.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <title>Week 13</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Montserrat&display=swap&subset=cyrillic-ext"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Prehistoric Calculator</title>
+  </head>
+  <body>
     <div class="content">
-        <div class="greetings">
-            <h2 class="hello">Привет!</h2>
-            <p>Давай познакомимся: нажми, пожалуйста, на кнопку:</p>
-            <button onclick="showMessage()" class="button button_color-yellow">Жми сюда!</button>
+      <div class="greetings">
+        <h2 class="hello">Hi!</h2>
+        <p>Let get acquainted: please, press this button:</p>
+        <button onclick="showMessage()" class="button button_color-yellow">
+          Press here!
+        </button>
+      </div>
+      <div class="calculator">
+        <p>Well, as we already know each other, let's play with</p>
+        <h2>prehistoric calculator</h2>
+        <p>What will we do?</p>
+        <div class="calculator__buttons">
+          <button onclick="addNumbers()" class="button button_color-pink">
+            +
+          </button>
+          <button onclick="subtractNumbers()" class="button button_color-pink">
+            -
+          </button>
+          <button onclick="multiplyNumbers()" class="button button_color-pink">
+            *
+          </button>
+          <button onclick="divideNumbers()" class="button button_color-pink">
+            /
+          </button>
         </div>
-        <div class="calculator">
-            <p>Ну, раз мы уже знакомы, давай поиграем в</p>
-            <h2>допотопный калькулятор</h2>
-            <p>Что будем делать?</p>
-            <div class="calculator__buttons">
-                <button onclick="addNumbers()" class="button button_color-pink">+</button>
-                <button onclick="subtractNumbers()" class="button button_color-pink">-</button>
-                <button onclick="multiplyNumbers()" class="button button_color-pink">*</button>
-                <button onclick="divideNumbers()" class="button button_color-pink">/</button>
-            </div>
-        </div>
+      </div>
     </div>
     <script src="assets/js/script.js"></script>
-</body>
+  </body>
 </html>
