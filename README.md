@@ -3,7 +3,7 @@
 _What is the first thing to build when you start learning JavaScript? A calculator - evidently!<br>
 Mine can only add, subtract, multiply and divide, that's why it is called "prehistoric"🦖 or "antediluvian" ⛈️._
 <br><br>
-Prehistoric-calculator is a Java-Script training project created on week 13 of learning with [ITGirlSchool].
+Prehistoric-calculator is a Java-Script training project created on 13th week of learning with [ITGirlSchool].
 
 The task was to make a page that:
 - on button press, asks user's name and alert with personal welcome-message
