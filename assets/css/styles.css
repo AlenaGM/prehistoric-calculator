@@ -1,86 +1,110 @@
 body {
-    display: grid;
-    background: url('../img/jungle.jpg') 0 0/cover no-repeat;
-    grid-template: 1fr / minmax(24px, 1fr) minmax(auto, 1200px) minmax(24px, 1fr);
-    grid-template-areas:
-        ". content .";
+  display: grid;
+  background: url("../img/jungle.jpg") 0 0 / cover no-repeat;
+  grid-template: 1fr / minmax(24px, 1fr) minmax(auto, 1200px) minmax(24px, 1fr);
+  grid-template-areas: ". content .";
+  min-height: 100vh;
 }
 
 .content {
-    grid-area: content;
-    background: url('../img/tiger.png') 0 0 no-repeat, url('../img/dino.png') 100% 80%/auto 450px no-repeat;
-    min-height: 100vh;
-    margin: 50px 15px;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template:
-        "greetings"
-        "calculator";
+  grid-area: content;
+  background: url("../img/tiger.png") 0 0 no-repeat,
+    url("../img/dino.png") 100% 100% / auto 450px no-repeat;
+  margin: 50px 15px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template:
+    "greetings"
+    "calculator";
 }
 
 .greetings {
-    grid-area: greetings;
-    padding: 20px;
-    justify-self: end;
-    padding-left: 350px;
+  grid-area: greetings;
+  padding: 20px;
+  justify-self: end;
+  padding-left: 350px;
 }
 
 .calculator {
+  grid-area: calculator;
+  padding: 20px;
+  justify-self: start;
+  align-self: end;
+  padding-right: 250px;
+  padding-top: 80px;
+  padding-bottom: 10%;
+}
+
+.calculator__buttons {
+  display: inline-flex;
+}
+
+.button {
+  border-radius: 15px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  line-height: 140%;
+  letter-spacing: 0em;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0px 5px 5px rgba(17, 8, 8, 0.25);
+}
+
+.button_color-yellow {
+  color: #ffffff;
+  background: #f9bc07;
+}
+
+.button_color-pink {
+  color: #ffffff;
+  background: #ec008c;
+  margin-right: 25px;
+}
+
+h2 {
+  font-family: "Amatic SC", cursive;
+  font-size: 54px;
+  font-weight: 600;
+  color: #ec008c;
+  text-transform: uppercase;
+}
+
+.hello {
+  color: #f9bc07;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 750px) {
+  .content {
+    background: url("../img/tiger.png") 0 0 / 250px no-repeat,
+      url("../img/dino.png") 100% 50% / auto 350px no-repeat;
+  }
+
+  .greetings {
+    grid-area: greetings;
+    padding: 20px;
+    justify-self: center;
+    padding-left: 0px;
+    padding-top: 150px;
+  }
+
+  .calculator {
     grid-area: calculator;
     padding: 20px;
     justify-self: start;
     align-self: end;
-    padding-right: 250px;
-    padding-top: 80px;
+    padding-top: 320px;
     padding-bottom: 10%;
-}
-
-.calculator__buttons {
-    display: inline-flex;
-}
-
-.button {
-    border-radius: 15px;
-    border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px 30px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 28px;
-    line-height: 140%;
-    letter-spacing: 0em;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    box-shadow: 0px 5px 5px rgba(17, 8, 8, 0.25);
-}
-
-.button_color-yellow {
-    color: #FFFFFF;
-    background: #f9bc07;
-}
-
-.button_color-pink {
-    color: #FFFFFF;
-    background: #ec008c;
-    margin-right: 25px;
-}
-
-h2 {
-    font-family:  'Amatic SC', cursive;
-    font-size: 54px;
-    font-weight: 600;
-    color: #ec008c;
-    text-transform: uppercase;
-}
-
-.hello {
-    color: #f9bc07;
-}
-
-p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    color: #FFFFFF;
+  }
 }
