@@ -9,7 +9,7 @@ body {
 .content {
   grid-area: content;
   background: url("../img/tiger.png") 0 0 no-repeat,
-    url("../img/dino.png") 100% 90% / auto 450px no-repeat;
+    url("../img/dino.png") 100% 80% / auto 450px no-repeat;
   margin: 50px 15px;
   display: grid;
   grid-template-rows: 1fr 1fr;
