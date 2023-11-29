@@ -1,6 +1,6 @@
 body {
   display: grid;
-  background: url("../img/jungle.jpg") 0 0 / cover no-repeat;
+  background: url("../img/jungle.webp") 0 0 / cover no-repeat;
   grid-template: 1fr / minmax(24px, 1fr) minmax(auto, 1200px) minmax(24px, 1fr);
   grid-template-areas: ". content .";
   min-height: 100vh;
@@ -67,6 +67,7 @@ body {
   margin-right: 25px;
 }
 
+h1,
 h2 {
   font-family: "Amatic SC", cursive;
   font-size: 54px;
