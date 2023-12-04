@@ -13,7 +13,7 @@ The task was to make a page that:
 <img width="45%" alt="screen capture" src="../main/assets/img/captureweb.png">
 
 ## Demo
-[Prehistoric-calculator]
+[Prehistoric Calculator]
 
 ## Tech stack
 
@@ -26,4 +26,4 @@ The task was to make a page that:
   
 
    [ITGirlSchool]: <https://itgirlschool.com/en>
-   [Prehistoric-calculator]: <https://alenagm.github.io/Prehistoric-calculator/>
+   [Prehistoric Calculator]: <https://alenagm.github.io/prehistoric-calculator/>
