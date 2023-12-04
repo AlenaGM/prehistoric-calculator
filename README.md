@@ -1,4 +1,4 @@
-# 🦖Prehistoric-calculator🦖
+# 🦖Prehistoric Calculator🦖
 
 _What is the first thing to build when you start learning JavaScript? A calculator - evidently!<br>
 Mine can only add, subtract, multiply and divide, that's why it is called "prehistoric"🦖 or "antediluvian" ⛈️._
